@@ -517,6 +517,7 @@ section#contacts .contacts .container h2 {
     font-size: 3rem;
     color: #FFFFFF;
     font-weight: 600;
+    text-transform: uppercase;
     margin-bottom: 10rem;
 }
 
@@ -643,4 +644,80 @@ section#contacts .contacts .icons .icon .box img {
     text-decoration: none;
     font-weight: bold;
     margin-left: 2px;
+}
+/* Responsividade */
+@media (max-width: 1400px) {
+ 
+.h1_primary {
+    font-size: 3rem;
+}
+.p_primary {
+    font-size: 1.2rem;
+}
+.btn--bg {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+.btn--med {
+    padding: 1rem 1.4rem;
+    font-size: 1.2rem;
+}
+#study,
+#study2,
+#study3 {
+    position: relative;
+    left: 0;
+}
+.about__content-title {
+    position: relative;
+    left: 200px;
+    font-weight: 600;
+}     
+.heading-sec__sub {
+    font-size: 1.1rem;
+}
+.about__content-details-para {
+    position: relative;
+    font-size: 1rem;
+    left: 200px;
+    word-wrap: break-word;
+    max-width: 520px;
+    word-wrap: break-word;
+}
+.skills {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+.skills__skill {
+    grid-template-rows: 1rem;
+    text-align: center;
+}
+.heading-sec__main {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.projects__row-img {
+    position: relative;
+    left: 200px;
+}
+.projects__row-content-title {
+    text-align: left;
+}
+.projects__row-content-desc {
+    max-width: 450px;
+    word-wrap: break-word;
+}
+.container h2 {
+  font-size: 3rem;
+} 
+section#contacts .contacts .icons {
+    display: grid;
+    grid: 100px / 1fr 1fr;
+}
+
+/* Sidebar */
+
+.sidebar.open {
+    max-width: 180px;
+}
 }
